@@ -110,4 +110,4 @@ author of your selected sample application before running it in production. You
 should also regularly review and apply any available patches or associated security
 advisories for dependencies used within your application.
 
-Best Practices: https://docs.aws.amazon.com/codestar/latest/userguide/best-practices.html?icmpid=docs_acs_rm_sec
+Best Practices: https://docs.aws.amazon.com/codestar/latest/userguide/best-practices.html?icmpid=docs_acs_rm_sec 
