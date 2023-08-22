@@ -20,7 +20,7 @@ from flask_jwt_extended import (
 import json
 import random
 
-from flaskrun import flaskrun
+from .flaskrun import flaskrun
 
 dotenv_path = join(dirname(__file__), '.env')
 load_dotenv(dotenv_path)
