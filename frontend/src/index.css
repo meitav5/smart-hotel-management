@@ -1,0 +1,28 @@
+.form_error_message {
+  color: red;
+  font-size: 0.85em;
+  text-transform: capitalize;
+}
+
+.form_success_message{
+  color: forestgreen;
+  font-size: 0.85em;
+  text-transform: capitalize;
+}
+
+.error_message {
+  color: red;
+  font-size: 0.75em;
+  margin-top: 2px;
+}
+
+.all_users_icon{
+  cursor: pointer;
+  margin: 0px 10px;
+}
+
+.CheckboxMenu .dropdown-item:hover,
+.CheckboxMenu .dropdown-item:active {
+  background-color: transparent;
+  color: black;
+}
