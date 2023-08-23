@@ -17,7 +17,6 @@
     </li>
     <li>
     Create a .env file inside the backend directory and add the below contents to it: <br/>
-    --- FLASK ---
         FLASK_SECRET_KEY={flask_secret_key} <br/>
         FLASK_DEBUG={flask_debug}<br/>
         AWS_ACCESS_KEY_ID={aws_access_key}<br/>
