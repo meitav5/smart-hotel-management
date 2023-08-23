@@ -44,10 +44,10 @@
     </li>
     <li>
     Create a .env file inside the backend directory and add the below contents to it: <br/>
-    REACT_APP_DEBUG=true
-    REACT_APP_HOST_URL=http://127.0.0.1:5000
-    REACT_APP_BASE_URL=http://127.0.0.1:5000/api/
-    REACT_APP_ENV=dev
+    REACT_APP_DEBUG=true <br/>
+    REACT_APP_HOST_URL=http://127.0.0.1:5000<br/>
+    REACT_APP_BASE_URL=http://127.0.0.1:5000/api/<br/>
+    REACT_APP_ENV=dev<br/>
     REACT_APP_USERS_API_URL=http://127.0.0.1:5000/api/users/
     </li>
     <li>
