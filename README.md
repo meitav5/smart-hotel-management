@@ -18,20 +18,17 @@
     <li>
     Create a .env file inside the backend directory and add the below contents to it: <br/>
     --- FLASK ---
-        FLASK_SECRET_KEY='\xbdx\xf4\xa8.\xce1\xda^:\xe5G\xdc\xb2_\xe8!\xf3\x1d\xa1\x97\x0e\xffa%\x80\x0e\xe9\xe6\x96:\xd7'
-        FLASK_DEBUG=True
-        FLASK_BASE_URL=''
-
-        --- AWS  ----
-        AWS_ACCESS_KEY_ID='<access_key>'
-        AWS_SECRET_ACCESS_KEY='<secret_key>'
-        AWS_REGION_NAME='<aws_region>'
-        AWS_DYNAMO_DB_TABLE_NAME='<dynamodb_table>'
-        AWS_STATIC_FILES_BUCKET_NAME='<bucket_name>'
-        AWS_STATIC_WEBSITE_S3_URL='<s3_bucket_url>'
-
+        FLASK_SECRET_KEY={flask_secret_key}
+        FLASK_DEBUG={flask_debug}
+        AWS_ACCESS_KEY_ID={aws_access_key}
+        AWS_SECRET_ACCESS_KEY={aws_secret_key}
+        AWS_REGION_NAME={aws_region}
+        AWS_DYNAMO_DB_TABLE_NAME={aws_dynamodb_table}
+        AWS_STATIC_FILES_BUCKET_NAME={aws_static_files_bucket}        AWS_STATIC_WEBSITE_S3_URL={aws_3_bucket_url}
     </li>
-    <li>Replace the content inside the curly brackets above by the .env file sent for backend.</li>
+    <li>
+    Replace the content inside the curly brackets above by the .env file sent for backend.
+    </li>
     <li>
     Go inside the backend directory and run the Flask webapp using the below command: <br/>
     <b>python3 app.py</b>
