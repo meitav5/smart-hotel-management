@@ -1,5 +1,5 @@
 # Hotel Management App
-# Steps for setting up the Hotel Management App.
+# Steps for setting up the Hotel Management App using VSCode.
 
 # Flask setup
 <ol>
